@@ -1,0 +1,44 @@
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+.col-9{
+    width: 75%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+img{    
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+.menu{    
+    text-align: center;
+    padding: auto;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.menu li{
+    padding: 8px;
+    margin-top: 7px;
+    background-color: grey;
+}
+
+.menu li:hover{
+    background-color: #ddd;
+}
+
+a{
+    text-decoration:none;
+}
