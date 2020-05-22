@@ -18,6 +18,7 @@ header{
     background-color: #e91e63;  
     position: fixed;
     top: 0;
+    box-shadow: 0px 0px 15px #424242;
     width: 100vw;
     z-index: 1;
 }
@@ -46,3 +47,38 @@ a{
     color: #424242;
     text-decoration:none;
 }
+
+.site-title{
+    font-size: 4em;
+}
+
+.sobre{
+    background-color: #424242;    
+    padding: 2em;
+    min-height: 100vh;
+}
+
+.sobre h2{
+    color: aliceblue;
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+
+.sobre p {
+    color: aliceblue;
+    margin-top: 1.4em;
+    text-indent: 1em;
+    text-align: justify;
+}
+
+.sobre figure{
+    float: right;
+    margin-left: 1em;
+}
+
+.sobre .img-perfil{
+    border-radius: 50%;
+    border: #e91e63 solid 0.3em;
+}
+
