@@ -5,6 +5,8 @@
 }
 body{    
     font-family:'Roboto Slab', serif;
+    background-size: auto 100vh;
+    height: 100vh;
 }
 
 header{
@@ -60,6 +62,7 @@ a{
     min-height: 100vh;
 }
 
+
 .sobre h2,
 .portfolio h2,
 .contatos h2{
@@ -90,12 +93,38 @@ a{
     border: #e91e63 solid 0.3em;  
 }
 
+@media(max-width: 800px){
+    .sobre figure{
+        float: none;             
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .img-perfil{
+        width: 300px;
+        height: 300px;
+    }
+}
+
 .portfolio .grid{
     display: grid;
-    justify-content: center;
+    justify-content: center;    
     gap: 2em;
-    grid-template-columns: repeat(3, 260px);
+    
+}   
+    
+@media(min-width:600px){
+    .portfolio .grid{        
+        grid-template-columns: repeat(2, 260px);
+    }
 }
+
+@media(min-width:900px){
+    .portfolio .grid{        
+        grid-template-columns: repeat(3, 260px);
+    }
+}
+
 .portfolio figure{
     text-align: center;
     color:#e91e63;
@@ -103,8 +132,10 @@ a{
 
 .img-portfolio{
     height: 180px;
-    border-radius: 10%;
     width: 100%; 
+    max-width: 260px;
+    border-radius: 10%;   
+    object-fit: cover; 
     transition: transform 0.5s;      
 }
 
@@ -124,6 +155,7 @@ a{
 
 .contatos a:hover{
     text-shadow: 0px 0px 15px #e91e63;
+    text-decoration: none;
 }
 
 footer{
