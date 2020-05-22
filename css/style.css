@@ -52,13 +52,15 @@ a{
     font-size: 4em;
 }
 
-.sobre{
+.sobre,
+.portfolio{
     background-color: #424242;    
     padding: 2em;
     min-height: 100vh;
 }
 
-.sobre h2{
+.sobre h2,
+.portfolio h2{
     color: aliceblue;
     font-size: 2.5em;
     margin-bottom: 1.5em;
@@ -77,8 +79,32 @@ a{
     margin-left: 1em;
 }
 
+.sobre a {
+    color: #e91e63;
+}
+
 .sobre .img-perfil{
     border-radius: 50%;
-    border: #e91e63 solid 0.3em;
+    border: #e91e63 solid 0.3em;  
+}
+
+.portfolio .grid{
+    display: grid;
+    justify-content: center;
+    gap: 2em;
+    grid-template-columns: repeat(3, 260px);
+}
+.portfolio figure{
+    text-align: center;
+}
+
+.img-portfolio{
+    height: 180px;
+    width: 100%; 
+    transition: transform 0.5s;      
+}
+
+.img-portfolio:hover{
+    transform: scale(1.2) rotate(-2deg);
 }
 
