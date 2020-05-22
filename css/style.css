@@ -53,14 +53,16 @@ a{
 }
 
 .sobre,
-.portfolio{
+.portfolio,
+.contatos{
     background-color: #424242;    
     padding: 2em;
     min-height: 100vh;
 }
 
 .sobre h2,
-.portfolio h2{
+.portfolio h2,
+.contatos h2{
     color: aliceblue;
     font-size: 2.5em;
     margin-bottom: 1.5em;
@@ -96,10 +98,12 @@ a{
 }
 .portfolio figure{
     text-align: center;
+    color:#e91e63;
 }
 
 .img-portfolio{
     height: 180px;
+    border-radius: 10%;
     width: 100%; 
     transition: transform 0.5s;      
 }
@@ -108,3 +112,35 @@ a{
     transform: scale(1.2) rotate(-2deg);
 }
 
+.contatos .icons{
+   text-align: center;
+}
+
+.contatos a {
+    color: aliceblue;
+    font-size: 6em;
+    transition: text-shadow 0.3s;
+}
+
+.contatos a:hover{
+    text-shadow: 0px 0px 15px #e91e63;
+}
+
+footer{
+    background-color: #e91e63;
+    position: relative;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    bottom: 0em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer span{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer .red {
+    color:  aliceblue;
+}
