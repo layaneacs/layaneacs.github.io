@@ -75,13 +75,26 @@ a{
 .sobre p {
     color: aliceblue;
     margin-top: 1.4em;
-    text-indent: 1em;
+    /*text-indent: 1em;*/
     text-align: justify;
 }
 
 .sobre figure{
     float: right;
     margin-left: 1em;
+}
+.sobre ul {
+    padding-top: 0.3em;
+}
+.sobre li {
+    list-style: none;     
+    display: flex;
+    padding-left: 1em;
+}
+
+.sobre i {
+    color: #e91e63;
+    padding-left: 0.5em;
 }
 
 .sobre a {
@@ -143,8 +156,8 @@ a{
     transform: scale(1.2) rotate(-2deg);
 }
 
-.contatos .icons{
-   text-align: center;
+.contatos .icons{      
+    text-align:center;
 }
 
 .contatos a {
