@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(94, 93, 93);;
+}
+
+.banner {  
+    /* height: 60vh; */
+    background-image: url(../img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    color: white;
+    padding: 150px;
+    text-align: center;
+
+    height: 50vh;
+}
+
+.banner h3 {  
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    
+}
+
+.botao {
+    text-decoration: none;
+    background-color: rgb(63, 27, 97);
+    padding: 10px 20px;
+    color: white;    
+    border-radius: 4px;
+    font-weight: 300;
+    
+}
+
+.container {    
+    width: 800px;
+    margin: 0 auto;
+     
+}
+
+.cards {
+    padding-top: 20px ;
+    padding-bottom: 50px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;   
+    
+}
+.card {
+    background-color: white;
+    box-shadow: 1px 1px 20px gray;
+    margin: 10px;
+
+    width: 200px;
+
+    text-align: center;   
+    
+}
+
+.card img {
+    margin: 5px;
+    width: 180px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: rgb(94, 93, 93);
+    padding: 8px;  
+ }
+ 
+.card p {
+   color: rgb(94, 93, 93);
+   padding: 8px;
+   font-weight: 300;
+}
+
+footer {
+    color: white;
+    background-color: rgb(94, 93, 93);
+    padding: 0px 10px;   
+}
+
+footer p {
+   padding: 30px;   
+}
+
+
+
+
+
